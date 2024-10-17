@@ -10,60 +10,77 @@
 </head>
 
 <body>
+
   <header id="header">
     <nav id="navbar">
       <ul id="nav-links">
         <li>
           <a href="#welcome-section" class="btn">About</a>
         </li>
+
         <li>
           <a href="#projects" class="btn">Works</a>
         </li>
+
         <li>
           <a href="#contact" class="btn">Contact</a>
         </li>
       </ul>
     </nav>
   </header>
+
   <main>
     <section id="welcome-section">
       <h1>Hey I am <span>Bibih</span></h1>
       <p>a frontend developer</p>
     </section>
+
     <section id="projects" class="projects-section">
-      <h1>Example of Works</h1>
-      <div class="grid">
-        <a href="#" class="project-tile">
+      <h1 id="exw">Example of Works</h1>
+
+      <section class="grid" role="grid" aria-labelledby="exw">
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tribute.jpg"
             alt="Tribute page by freeCodeCamp" class="project-image">
           <p class="project-title">Project Title 1</p>
-        </a>
-        <a href="#" class="project-tile">
+          <a href="#" aria-label="Check Project 1"></a>
+        </section>
+
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/random-quote-machine.png"
             alt="Quote Machine page by freeCodeCamp" class="project-image">
           <p class="project-title">Project Title 2</p>
-        </a>
-        <a href="#" class="project-tile">
+          <a href="#" aria-label="Check Project 2"></a>
+        </section>
+
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/calc.png"
             alt="Calculaor page by freeCodeCamp" class="project-image">
           <p class="project-title">Project Title 3</p>
-        </a>
-        <a href="#" class="project-tile">
+          <a href="#" aria-label="Check Project 3"></a>
+        </section>
+
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/map.jpg" alt="map page by freeCodeCamp"
             class="project-image">
           <p class="project-title">Project Title 4</p>
-        </a>
-        <a href="#" class="project-tile">
+          <a href="#" aria-label="Check Project 4"></a>
+        </section>
+
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/wiki.png" alt="wiki page by freeCodeCamp"
             class="project-image">
           <p class="project-title">Project Title 5</p>
-        </a>
-        <a href="#" class="project-tile">
+          <a href="#" aria-label="Check Project 5"></a>
+        </section>
+
+        <section class="project-tile" role="gridcell">
           <img src="https://cdn.freecodecamp.org/testable-projects-fcc/images/tic-tac-toe.png"
             alt="Tic-tac-toe page by freeCodeCamp" class="project-image">
           <p class="project-title">Project Title 6</p>
-        </a>
-      </div>
+          <a href="#" aria-label="Check Project 6"></a>
+        </section>
+      </section>
     </section>
 
     <section id="contact">
